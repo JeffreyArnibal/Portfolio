@@ -5,6 +5,10 @@
    font-family: 'Poppins', sans-serif;
 }
 
+html {
+   scroll-behavior: smooth;
+ }
+
 body {
    background: #000000;
    color: #fff;
@@ -233,6 +237,7 @@ nav ul li a:hover::after {
    border-radius: 10px;
    display: block;
    transition: transform 0.5s;
+   object-fit: cover;
 }
 
 .layer {
